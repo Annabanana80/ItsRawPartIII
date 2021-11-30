@@ -21,7 +21,7 @@ All Recipes:
 <img width="1427" alt="Screen Shot 2021-11-29 at 9 44 11 PM" src="https://user-images.githubusercontent.com/15808125/143976483-c457beed-829e-4cc1-9a93-887e378bbc81.png">
 
 Recipe Details: 
-
+Donkey! is Edit, Shut it Down! is Delete, and the last button is cancel which takes you back to the all recipes screen.
 <img width="1435" alt="Screen Shot 2021-11-29 at 9 41 01 PM" src="https://user-images.githubusercontent.com/15808125/143976550-836d4700-e3d0-4485-a227-f5aef8c6aed6.png">
 
 Edit page (rage intensifies!!):

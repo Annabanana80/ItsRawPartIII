@@ -1,6 +1,6 @@
 # ItsRawPartIII
 
-My brand-new full-stack Gordon Ramsay recipe saver app. 
+My brand-new full-stack Gordon Ramsay recipe saver app. Not making fun of him--I'm actually a huge fan :)
 
 Made with MongoDB, Express, ReactJS, and Node
 

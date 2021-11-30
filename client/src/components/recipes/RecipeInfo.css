@@ -1,0 +1,59 @@
+.RecipeInfo{
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    height: inherit;
+    background-image: url('../../assets/images/viewbg.jpeg')
+}
+.recipeInfoHeader{
+    padding-top:1em;
+}
+.recipeInfoHeader > h1{
+    margin-top: 0px;
+}
+.foodPhoto{
+    max-width: 350px;
+    min-width: 200px;
+}
+.recipeInfoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.ingInstContainer{
+    width: 67%
+}
+.ingredients{
+    background-color: ghostwhite;
+    padding: 10px;
+    height: 48%;
+}
+.summary{
+    background-color: ghostwhite;
+    padding: 10px;
+    height: 50px;
+   
+}
+.instructions{
+    background-color: ghostwhite;
+    padding: 10px;
+    margin-top: .5em;
+    height: 50%;
+}
+.summary > p {
+    margin: 0px;
+}
+#edit{
+    background-color: black;
+    margin-right: .5em;
+}
+#delete{
+    background-color:#a70a28;
+    margin-right: .5em;
+}
+#close{
+    color: black;
+    background-color: white;
+}
+.btnInfoContainer{
+    margin-top: .5em;
+}

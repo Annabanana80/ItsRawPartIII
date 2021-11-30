@@ -1,0 +1,20 @@
+.Home{
+    background-image: url('../../assets/images/background.jpeg'); 
+    height: inherit;
+}
+.titleContainer{
+    position: relative;
+    top: 30%;
+}
+.homeTitle{
+    font-family: 'Road Rage', cursive;
+    font-size: 9em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.subTitle{
+    margin-top: 0px;
+}
+.homeTitle, .subTitle {
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+.CreateRecipe{
+    height: inherit;
+    background-image: url('../../assets/images/editbg.jpeg');
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+.createRecipeHeader{
+    padding-top:1em;
+}
+.createRecipeHeader > h1{
+    margin-top: 0px;
+}

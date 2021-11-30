@@ -1,0 +1,90 @@
+.RecipeList{
+    height: inherit;
+    background-image: url('../../assets/images/listbg.jpeg')
+}
+small{
+    display: none
+}
+a{
+    color: white
+}
+.recipeListHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+#root > div > main > div > div.recipeListHeader > button{
+    background-color: black;
+    margin-top: 1.2em
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    align-content: space-around;
+    width: 32%;
+}
+.card-gradient,
+.card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.56) 100%);
+}
+
+.card-animation {
+  margin-top: auto;  /* pushes all content to bottom */
+  position: relative;
+  transition: 0.5s;
+  transform: translateY(100%);
+}
+
+.card-title {
+  text-transform: uppercase;
+  padding: 20px;
+  transition: 0.5s;
+  transform: translateY(-100%);
+}
+
+.card-description {
+  padding: 10px 20px;
+  transition: 0.5s;
+  opacity: 0;
+  flex: 1;
+}
+
+.card-footer {
+  padding: 20px;
+  position: relative;
+}
+
+
+/* ANIMATE */
+
+.card:hover .card-animation {
+  transform: translateY(0);
+}
+
+.card:hover .card-title {
+  transform: translateY(0%);
+}
+
+.card:hover .card-description {
+  opacity: 1;
+}
